@@ -1,0 +1,907 @@
+body, html{
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color:  #4f4f4f;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* <-------------------------------------------------- Header Section*/ 
+
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 64px;
+    z-index: 1;
+}
+
+.head-one{ 
+    width: 100%;
+    display: flex;
+}
+
+.head-two{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    left: 24px;
+}
+
+.colmar-academy{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+nav, ul{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 24px;
+    }
+    
+    ul {
+      width: auto;
+      float: right;
+    }
+    
+    ul, li {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      word-spacing: 5px;
+      gap: 16px;
+      padding: 5px;
+    }
+
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+#logovo {
+    margin: 0;
+}
+
+.darkier {
+    color: #4f4f4f;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.britier {
+    color: #c5c5c5;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#conceal {
+    display: block;   
+}
+
+#reveal {
+    display: none;
+}
+
+/* <------------------------------------------- Section I */
+
+.container-one {
+    display: inline-flex;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    top: 64px;
+    background-color: #d8d8d8;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container-two {
+    display: flex;
+    width: 735px;
+    height: auto;
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 32px;
+    left: 24px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    height: auto;
+    justify-content: flex-start;
+    position: relative;
+    left: 70px;
+    line-height: 45px;
+    padding-top: 113px;
+}
+
+button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #8a8a8a;
+    color: white;
+    border: none;
+    width: 88%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+h1 {
+    font-size: 43px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+/* <-------------------------------------------------------- Section II */
+
+.middle-one {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 32px;
+    overflow: hidden;
+}
+
+.middle-two {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    left: 24px;
+    justify-content: center;
+    border-right: solid 1px #eeeeee;
+}
+
+.reader {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    position: relative;
+    top: 10px;
+    padding: 0;
+    margin-right: 24px;
+    border-right-width: 24px;
+    width: 735px;
+} 
+
+.middle-three {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    left: 24px;
+}
+
+.block-one {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-bottom: solid 3px #eeeeee;
+    padding-bottom: 15px;
+    border-bottom-width: 3px;
+    padding-top: 40px;
+    padding-left: 15px;
+    gap: 21px;
+}
+
+.block-two {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+    background-color: white;
+    border-bottom-width: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.block-three {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+    border-bottom-width: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #c6c6c6;
+}
+
+.orientation {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/information-orientation.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+}
+
+
+.date {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 20px;
+    gap: 13px;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+.blue-l {
+    color: #00abff;
+}
+
+.campus {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/information-campus.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+}
+
+.close {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 13px;
+}
+
+.guest {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+}
+
+.lecture {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 13px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+           /* <--------------------------------------------Section III */
+
+.start-learning {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #dadada;
+    padding-bottom: 50px;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+}
+
+#hid-course {
+    display: none;
+}
+
+.guts {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding-right: 72px;
+ padding-left: 72px;
+}
+
+.block-base {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+#pics {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 295px;
+    height: 142px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+}
+
+.engineering {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/course-software.jpg');
+}
+
+.art {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/course-computer-art.jpg');
+}
+
+.design {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/course-design.jpg');
+}
+
+.data {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/course-data.jpg');
+}
+
+.business {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/course-business.jpg');
+}
+
+.marketing {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/course-marketing.jpg');
+}
+
+#spaced {
+    padding: 16px;
+}
+
+#spaced-p {
+    padding-top: 10px;
+}
+
+        /* <------------------------------------------------ Section IV */
+
+.exhibit-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 32px;
+    overflow: hidden;
+}
+
+.ex-gut-one {
+    display: flex;
+    justify-content: center;
+}
+
+.ex-gut-two {
+    display: flex;
+    position: relative;
+    top: 16px;
+}
+
+.video-cont {
+    display: flex;
+    width: 60%;
+    height: auto;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.video-adj {
+    display: flex;
+    width: 723px;
+    height: 430px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+} 
+
+.side-cont {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    left: 24px;
+}
+
+.con-one {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+    border-bottom-width: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #c6c6c6;
+    overflow: hidden;
+}
+
+p {
+    margin:0;
+    line-height: 21px;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 0;
+}
+
+.prototype {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 13px;
+}
+
+.fisma {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/thesis-fisma.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+}
+
+.con-two {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+    border-bottom-width: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.now {
+    background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/thesis-now-and-then.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+}
+
+.then {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 13px;
+}
+    /* ------------------------------------------------------------------- Footer */
+footer {
+    width: 100%;
+    height: 64px;
+    border-top: solid 2px #eeeeee;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+}
+
+.to-the-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 24px;
+}
+
+.to-the-right {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    width: 50%;
+    height: auto;
+    position: relative;
+    right: 24px;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+/* <-------------------------------------------------------------------------- Queries */
+
+@media only screen and (max-width: 420px) {
+
+    #conceal {
+        display: none;
+    }
+
+    .colmar-academy {
+        display: none;
+    }
+
+    #reveal {
+        display: block;
+    }
+
+    .middle-two {
+        display: none;
+    }
+
+    .head-two {
+        display: none;
+     }
+
+    .container-one {
+       display: inline-flex;
+       flex-wrap: wrap;
+       width: 100%;
+       height: auto;
+       position: relative;
+       top: 64px;
+       background-color: #d8d8d8;
+       margin: 0;
+       overflow: hidden;
+    }
+
+    .container-two {
+        display: flex;
+        max-width: 420px;
+        min-width: 300px;
+        max-height: 326px;    
+        min-height: 265px;
+        background-image: url(./capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    ul, li {
+        display: flex;
+        min-width: 44px;
+        max-width: 580px;
+        width: 100%;
+        justify-content: space-around;
+        list-style: none;
+        word-spacing: 5px;
+        gap: 7px;
+        padding: 5px;
+        position: relative;
+        left: 10px;
+    }
+
+    .container-three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 376px;
+        height: auto;
+        justify-content: flex-start;
+        position: relative;
+        left: 5px;
+        padding-top: 13px;
+        padding-bottom: 46px;
+    }
+
+    h1 {
+        font-size: 33px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 600;
+    }
+    
+    h4 {
+        font-size: 20px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 600;
+        line-height: 30px;
+        margin-top: 0;
+    }
+
+    button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #8a8a8a; 
+        color: white;
+        border: none;
+        width: 290px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .block-one {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 400px;
+        height: auto;
+        padding-bottom: 15px;
+        border-bottom-width: 3px;
+        padding-left: 0px;
+        gap: 21px;
+        border-bottom: solid 1px white;
+        position: relative;
+        left: 0;
+    }
+
+    .block-two {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 700px;
+        min-width: 400px;
+        height: auto;
+        padding-bottom: 15px;
+        border-bottom-width: 3px;
+        padding-top: 15px;
+        padding-left: 0px;
+        position: relative;
+        left: 0;
+    }
+
+    .block-three {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 700px;
+        min-width: 400px;
+        height: auto;
+        padding-bottom: 15px;
+        border-bottom-width: 3px;
+        padding-top: 15px;
+        padding-left: 0px;
+        background-color: white;
+        position: relative;
+        left: 0;
+    }
+
+    .middle-one {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        height: auto;
+        background-color: white;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        top: 32px;
+    }
+
+      .middle-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        max-width: 700px;
+        min-width: 400px;
+        height: auto;
+        box-sizing: border-box;
+        position: relative;
+        top: -16px;
+        left: -21px;
+    }
+
+    .orientation {
+        background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/information-orientation-mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 164px;
+        box-sizing: border-box;
+        display: flex;
+        margin: 0;
+    }
+
+    .date {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-left: 20px;
+        padding-top: 20px;
+        gap: 13px;
+    }
+
+    .campus {
+        background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/information-campus-mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 164px;
+        box-sizing: border-box;
+        display: flex;
+        margin: 0;
+    }
+
+    .guest {
+        background-image: url('./capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture-mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 164px;
+        box-sizing: border-box;
+        display: flex;
+        margin: 0;
+    }
+
+    .start-learning {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: white;
+        border-top: solid 1px #eeeeee;
+        border-bottom: solid 1px #eeeeee;
+        padding-bottom: 50px;
+        position: relative;
+        top: 20px;
+        overflow: hidden;
+    }
+
+    #spaced,
+    #pics {
+        display: none;
+    }
+
+    .guts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        max-width: 700px;
+        min-width: 400px;
+        height: auto;
+    }
+
+    #hid-course {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #c6c6c6;
+        height: 40px;
+        width: 282px;
+        padding-top: 14px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+    }
+
+    .block-base {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: flex-start;
+        align-content: flex-start;
+        margin-top: 23px;
+        margin-left: 0;
+    }
+
+    .side-cont {
+        display: none;
+    }
+
+    .to-the-left {
+        display: flex;
+        justify-content: flex-start;
+        min-width: 300px;
+        height: auto;
+        position: relative;
+        left: 24px;
+    }
+
+    .ex-gut-two {
+        display: flex;
+        max-width: 700px;
+        
+        justify-content: center;
+        min-width: 400px;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    .video-cont {
+        display: flex;
+        justify-content: center;
+        max-width: 700px;
+        min-width: 400px;
+        height: auto;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    .video-o {
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: auto;
+    }
+
+    video {
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+
+
+}
